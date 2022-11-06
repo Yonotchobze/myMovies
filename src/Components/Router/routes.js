@@ -1,9 +1,11 @@
 import HomePage from '../Pages/HomePage';
-import NewPage from '../Pages/NewPage';
+import AddMoviePage from '../Pages/AddMoviePage';
+import ViewMovieList from '../Pages/ViewMoviePage';
 
 const routes = {
   '/': HomePage,
-  '/new': NewPage,
+  '/addMovie': AddMoviePage,
+  '/movies': ViewMovieList
 };
 
 export default routes;
